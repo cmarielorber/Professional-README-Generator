@@ -141,16 +141,16 @@ const writeFile = fileContent => {
 
 // TODO: Create a function to initialize app
 const init = () => {
-    return inquirer.prompt(questions).then((answers) => {
-        markdown(answers)
+    return inquirer.prompt(questions).then((data) => {
+        markdown(data)
     })
 };
 
 // Function call to initialize app
 init()
-.then(answers => {
-    console.log(answers);
-    // return generateMarkdown(answers);
+.then(data => {
+    console.log(data);
+    return markdown({...data});
 })
 .then(pageMD => {
     return writeFile(pageMD);

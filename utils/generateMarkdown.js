@@ -50,31 +50,26 @@ function renderLicenseTOC(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.projectname}
+  return `## ${data.projectname}
 
   ${renderLicenseBadge(data.license)}
 
   ## Table-of-Contents
 
-  *[Description](#description)
-
-  * [Installation](#installation)
-
-  * [Usage](#usage)
-  
-  * [License](#license)
-  
+  * [Description](#description)
+  * [Installation](#dependencies)
+  * [Usage](#repo) 
+  * [License](#license) 
+  ${renderLicenseTOC(data.license)} 
   * [Contributing](#contributing)
-  
   * [Tests](#tests)
-  
   * [Questions](#questions)
 
   ## [Description](#table-of-contents)
 
   ${data.description}
   
-  ## Installation
+  ## [Installation](#table-of-contents)
   
   To install necessary dependencies, run the following command:
   
@@ -82,19 +77,19 @@ function generateMarkdown(data) {
   d
 \`\`\`
   
-  ## Usage
+  ## [Usage](#table-of-contents)
 
   ${data.repo}
   
-  ## License
+  ## [License](#table-of-contents)
   
   ${renderLicenseSection(data.license)}
   
-  ## Contributing
+  ## [Contributing](#table-of-contents)
 
   ${data.contributing}
   
-  ## Tests
+  ## [Tests](#table-of-contents)
   
   To run tests, run the following command:
   
@@ -102,10 +97,10 @@ function generateMarkdown(data) {
   npm test
 \`\`\`
   
-  ## Questions
+  ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: ${data.email}](mailto:${data.email}). You can find more of my work at [cmarielorber](https://github.com/cmarielorber/).
+  [Email: ${data.email}](mailto:${data.email}). You can find more of my work at [GitHub](https://github.com${data.githubname}).
 `;
 }
 
