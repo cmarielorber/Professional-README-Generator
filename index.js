@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
 const markdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
@@ -151,7 +150,7 @@ const init = () => {
 init()
 .then(answers => {
     console.log(answers);
-    return generateMarkdown(answers);
+    // return generateMarkdown(answers);
 })
 .then(pageMD => {
     return writeFile(pageMD);
