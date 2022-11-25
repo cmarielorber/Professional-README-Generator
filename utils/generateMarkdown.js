@@ -81,8 +81,6 @@ function generateMarkdown(data) {
 
   ${data.repo}
   
-  ## [License](#table-of-contents)
-  
   ${renderLicenseSection(data.license)}
   
   ## [Contributing](#table-of-contents)

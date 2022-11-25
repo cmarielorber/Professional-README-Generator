@@ -58,4 +58,4 @@
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: undefined](mailto:undefined). You can find more of my work at undefined.
+  [Email: undefined](mailto:undefined). You can find more of my work at [GitHub](https://github.comundefined).
