@@ -49,25 +49,30 @@ function renderLicenseTOC(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answers) {
-  return `# ${answers.projectname}
+function generateMarkdown(data) {
+  return `# ${data.projectname}
 
-  ${renderLicenseBadge(answers.license)}
+  ${renderLicenseBadge(data.license)}
 
   ## Table-of-Contents
+
+  *[Description](#description)
 
   * [Installation](#installation)
 
   * [Usage](#usage)
   
   * [License](#license)
-  ${renderLicenseTOC(answers.license)}
   
   * [Contributing](#contributing)
   
   * [Tests](#tests)
   
   * [Questions](#questions)
+
+  ## [Description](#table-of-contents)
+
+  ${data.description}
   
   ## Installation
   
@@ -81,9 +86,11 @@ function generateMarkdown(answers) {
   
   ## License
   
-  ${renderLicenseSection(answers.license)}
+  ${renderLicenseSection(data.license)}
   
   ## Contributing
+
+  ${data.contributing}
   
   ## Tests
   
@@ -96,7 +103,7 @@ function generateMarkdown(answers) {
   ## Questions
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: ${answers.email}](mailto:${answers.email}). You can find more of my work at [cmarielorber](https://github.com/cmarielorber/).
+  [Email: ${data.email}](mailto:${data.email}). You can find more of my work at [cmarielorber](https://github.com/cmarielorber/).
 `;
 }
 
