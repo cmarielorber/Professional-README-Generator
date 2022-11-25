@@ -83,6 +83,8 @@ function generateMarkdown(data) {
 \`\`\`
   
   ## Usage
+
+  ${data.repo}
   
   ## License
   
