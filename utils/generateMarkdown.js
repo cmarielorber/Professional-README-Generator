@@ -40,9 +40,7 @@ function renderLicenseSection(license) {
 // If there is no license, return an empty string
 function renderLicenseTOC(license) {
   if (license !== 'no license') {
-    return `
-  * [License](#license)
-    `;
+    return `* [License](#license)`;
   } else {
     return ' ';
   }
@@ -50,7 +48,8 @@ function renderLicenseTOC(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `## ${data.projectname}
+  return `
+  # ${data.projectname}
 
   ${renderLicenseBadge(data.license)}
 
@@ -58,8 +57,7 @@ function generateMarkdown(data) {
 
   * [Description](#description)
   * [Installation](#dependencies)
-  * [Usage](#repo) 
-  * [License](#license) 
+  * [Usage](#usage) 
   ${renderLicenseTOC(data.license)} 
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -79,7 +77,11 @@ function generateMarkdown(data) {
   
   ## [Usage](#table-of-contents)
 
-  ${data.repo}
+  ${data.usage}
+
+  For more information on how to add screenshots for examples, visit the following website:
+  
+  [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   ${renderLicenseSection(data.license)}
   

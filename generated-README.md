@@ -1,15 +1,15 @@
-## undefined
+
+  # readmegenerator
 
   
-  ![badge](https://img.shields.io/badge/license-undefined-blue)
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
     
 
   ## Table-of-Contents
 
   * [Description](#description)
   * [Installation](#dependencies)
-  * [Usage](#repo) 
-  * [License](#license) 
+  * [Usage](#usage) 
   
   * [License](#license)
      
@@ -19,7 +19,7 @@
 
   ## [Description](#table-of-contents)
 
-  undefined
+  streamling
   
   ## [Installation](#table-of-contents)
   
@@ -31,21 +31,23 @@
   
   ## [Usage](#table-of-contents)
 
-  undefined
+  mine
+
+  For more information on how to add screenshots for examples, visit the following website:
   
-  ## [License](#table-of-contents)
+  [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   
     ## [License](#table-of-contents)
     The application is covered under the following license:
     
-    [undefined](https://choosealicense.com/licenses/undefined)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
       
   
   ## [Contributing](#table-of-contents)
 
-  undefined
+  ask me
   
   ## [Tests](#table-of-contents)
   
@@ -58,4 +60,4 @@
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: undefined](mailto:undefined). You can find more of my work at [GitHub](https://github.comundefined).
+  [Email: christenmlorber@gmail.com](mailto:christenmlorber@gmail.com). You can find more of my work at [GitHub](https://github.comcmarielorber).

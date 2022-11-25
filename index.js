@@ -99,7 +99,7 @@ const questions = [
     {
         type: "input",
         message: "What does the user need to know about using the repo?",
-        name: "repo",
+        name: "usage",
         validate: repoInput => {
             if (repoInput) {
                 return true;
@@ -143,15 +143,12 @@ const writeFile = fileContent => {
 const init = () => {
     return inquirer.prompt(questions).then((data) => {
         markdown(data)
+        return markdown (data);
     })
 };
 
 // Function call to initialize app
 init()
-.then(data => {
-    console.log(data);
-    return markdown({...data});
-})
 .then(pageMD => {
     return writeFile(pageMD);
 })
