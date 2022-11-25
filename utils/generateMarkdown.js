@@ -80,9 +80,9 @@ function generateMarkdown(data) {
   ${data.usage}
 
   For more information on how to add screenshots for examples, visit the following website:
-  
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
+  ## [License](#table-of-contents) 
   ${renderLicenseSection(data.license)}
   
   ## [Contributing](#table-of-contents)

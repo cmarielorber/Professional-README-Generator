@@ -39,6 +39,7 @@
   
   
     ## [License](#table-of-contents)
+    
     The application is covered under the following license:
     
     [MIT](https://choosealicense.com/licenses/MIT)
