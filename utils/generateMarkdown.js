@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'nolicense') {
     return `
-  [${license}](https://choosealicense.com/licenses/${license})
+  [${license}](https://img.shields.io/badge/license-${license}-blue)
     `;
   } else {
     return ' ';

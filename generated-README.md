@@ -1,8 +1,8 @@
 
-  # k
+  # c
 
   
-  ![badge](https://img.shields.io/badge/license-None-blue)
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
     
 
   ## Table-of-Contents
@@ -17,12 +17,12 @@
 
   ## [Description](#table-of-contents)
 
-  h
+  j
   
   ## [Installation](#table-of-contents)
   
   To install necessary dependencies/packages, run the following command: 
-```[badge](https://img.shields.io/badge/license-${license}-blue)
+```
 npm i
 ```
   
@@ -43,13 +43,13 @@ node index.js
   ## [License](#table-of-contents)
   The application is covered under the following license:
   
-  [None](https://choosealicense.com/licenses/None)
+  [MIT](https://img.shields.io/badge/license-MIT-blue)
     
       
   
   ## [Contributing](#table-of-contents)
 
-  j
+  i
   
   ## [Tests](#table-of-contents)
   
@@ -62,4 +62,4 @@ npm test
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: j](mailto:j). You can find more of my work at [GitHub](https://github.comhb).
+  [Email: k](mailto:k). You can find more of my work at [GitHub](https://github.comh).
