@@ -26,17 +26,18 @@ A good quality README is essential when creating an open-source project on GitHu
 ## Installation
 Run following command in terminal
 
-\`\`\`
+```
 npm i
-\`\`\`
+```
+
 
 ## Usage
 
 To invoke the application, type in the following command to your termimnal:
 
-\`\`\`
+```
 node index.js
-\`\`\`
+```
 
 ## License
 
