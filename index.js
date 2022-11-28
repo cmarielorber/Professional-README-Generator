@@ -5,33 +5,6 @@ const markdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: "input",
-        message: "What is your GitHub Username?",
-        name: "githubname",
-        validate: githubInput => {
-            if (githubInput) {
-                return true;
-            } else {
-                console.log('Please enter your username.');
-                return false;
-            }
-        }
-    },
-
-    {
-        type: "input",
-        message: "What is your email address?",
-        name: "email",
-        validate: githubInput => {
-            if (githubInput) {
-                return true;
-            } else {
-                console.log('Please enter your email.');
-                return false;
-            }
-        }
-    },
 
     {
         type: "input",
@@ -62,6 +35,34 @@ const questions = [
     },
 
     {
+        type: "input",
+        message: "What is your GitHub Username?",
+        name: "githubname",
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your username.');
+                return false;
+            }
+        }
+    },
+
+    {
+        type: "input",
+        message: "What is your email address?",
+        name: "email",
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your email.');
+                return false;
+            }
+        }
+    },
+
+    {
         type: "list",
         message: "What kind of license should your project have?",
         name: "license",
@@ -70,13 +71,13 @@ const questions = [
 
     {
         type: "input",
-        message: "What command should be run to install dependecencies?",
-        name: "dependencies",
+        message: "What command should be run to install packages?",
+        name: "packages",
         validate: dependencyInput => {
             if (dependencyInput) {
                 return true;
             } else {
-                console.log('Please state the command to be used to run the dependencies.');
+                console.log('Please state the command to be used to run the packages.');
                 return false;
             }
         }

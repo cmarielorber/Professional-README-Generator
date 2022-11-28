@@ -1,5 +1,5 @@
 
-  # readmegenerator
+  # Readme
 
   
   ![badge](https://img.shields.io/badge/license-MIT-blue)
@@ -10,16 +10,14 @@
   * [Description](#description)
   * [Installation](#dependencies)
   * [Usage](#usage) 
-  
-  * [License](#license)
-     
+  * [License](#license) 
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
   ## [Description](#table-of-contents)
 
-  streamling
+  readme generator
   
   ## [Installation](#table-of-contents)
   
@@ -31,24 +29,23 @@
   
   ## [Usage](#table-of-contents)
 
-  mine
+  repo
 
   For more information on how to add screenshots for examples, visit the following website:
-  
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
+  node
+  ## [License](#table-of-contents) 
   
-  
-  ## [License](#table-of-contents)
+    ## [License](#table-of-contents)
+    The application is covered under the following license:
     
-  The application is covered under the following license:
-    
-  [MIT](https://choosealicense.com/licenses/MIT)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
       
   
   ## [Contributing](#table-of-contents)
 
-  ask me
+  contribute
   
   ## [Tests](#table-of-contents)
   

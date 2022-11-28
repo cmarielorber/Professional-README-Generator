@@ -69,15 +69,20 @@ function generateMarkdown(data) {
   
   ## [Installation](#table-of-contents)
   
-  To install necessary dependencies, run the following command:
-  
+  To install necessary dependencies/packages, run the following command: 
 \`\`\`
-  d
+npm i
 \`\`\`
   
   ## [Usage](#table-of-contents)
 
-  ${data.usage}
+  Once software is downloaded and Node packages are initialized, it's time to answer the prompts.
+  Use the command below to initialized prompts:
+\`\`\`
+node index.js
+\`\`\`
+
+  After you answer your prompts, your README.md file will be generated.
 
   For more information on how to add screenshots for examples, visit the following website:
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
@@ -94,7 +99,7 @@ function generateMarkdown(data) {
   To run tests, run the following command:
   
 \`\`\`
-  npm test
+npm test
 \`\`\`
   
   ## [Questions](#table-of-contents)
