@@ -1,8 +1,8 @@
 
-  # README GENERATOR
+  # j
 
   
-  ![badge](https://img.shields.io/badge/license-MIT-blue)
+  ![badge](https://img.shields.io/badge/license-None-blue)
     
 
   ## Table-of-Contents
@@ -17,7 +17,7 @@
 
   ## [Description](#table-of-contents)
 
-  readme using terminal
+  h
   
   ## [Installation](#table-of-contents)
   
@@ -40,16 +40,16 @@ node index.js
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   
-    ## [License](#table-of-contents)
-    The application is covered under the following license:
+  ## [License](#table-of-contents)
+  The application is covered under the following license:
     
-    [MIT](https://choosealicense.com/licenses/MIT)
+    [None](https://choosealicense.com/licenses/None)
     
       
   
   ## [Contributing](#table-of-contents)
 
-  yes
+  j
   
   ## [Tests](#table-of-contents)
   
@@ -62,4 +62,4 @@ npm test
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: christenmlorber@gmail](mailto:christenmlorber@gmail). You can find more of my work at [GitHub](https://github.comcmarielorber).
+  [Email: hh](mailto:hh). You can find more of my work at [GitHub](https://github.comkj).
