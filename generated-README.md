@@ -8,7 +8,7 @@
   ## Table-of-Contents
 
   * [Description](#description)
-  * [Installation](#packages)
+  * [Installation](#installation)
   * [Usage](#usage) 
   * [License](#license) 
   * [Contributing](#contributing)

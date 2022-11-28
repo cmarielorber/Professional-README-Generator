@@ -56,7 +56,7 @@ function generateMarkdown(data) {
   ## Table-of-Contents
 
   * [Description](#description)
-  * [Installation](#packages)
+  * [Installation](#installation)
   * [Usage](#usage) 
   ${renderLicenseTOC(data.license)} 
   * [Contributing](#contributing)
