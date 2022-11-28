@@ -24,7 +24,7 @@ A good quality README is essential when creating an open-source project on GitHu
 * [GitHub Info](#GitHub) 
 
 ## Installation
-Run following command in terminal
+To install packages to generate README, run the following command in your terminal:
 
 ```
 npm i
