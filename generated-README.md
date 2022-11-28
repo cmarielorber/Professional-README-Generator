@@ -22,7 +22,7 @@
   ## [Installation](#table-of-contents)
   
   To install necessary dependencies/packages, run the following command: 
-```
+```[badge](https://img.shields.io/badge/license-${license}-blue)
 npm i
 ```
   
