@@ -1,5 +1,5 @@
 
-  # c
+  # README Generator
 
   
   ![badge](https://img.shields.io/badge/license-MIT-blue)
@@ -17,7 +17,7 @@
 
   ## [Description](#table-of-contents)
 
-  j
+  streamling readme to streamling project efficiency
   
   ## [Installation](#table-of-contents)
   
@@ -49,7 +49,7 @@ node index.js
   
   ## [Contributing](#table-of-contents)
 
-  i
+  thank s for helping making my project a success
   
   ## [Tests](#table-of-contents)
   
@@ -62,4 +62,4 @@ npm test
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: k](mailto:k). You can find more of my work at [GitHub](https://github.comh).
+  [Email: christenmlorber@gmail.com](mailto:christenmlorber@gmail.com). You can find more of my work at [GitHub](https://github.com/cmarielorber).

@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   
   To install necessary dependencies/packages, run the following command: 
 \`\`\`
-npm i
+${data.packages}
 \`\`\`
   
   ## [Usage](#table-of-contents)
@@ -98,13 +98,13 @@ node index.js
   To run tests, run the following command:
   
 \`\`\`
-npm test
+${data.tests}
 \`\`\`
   
   ## [Questions](#table-of-contents)
   
   If you have any questions about the repo, open an issue or contact me directly here 
-  [Email: ${data.email}](mailto:${data.email}). You can find more of my work at [GitHub](https://github.com${data.githubname}).
+  [Email: ${data.email}](mailto:${data.email}). You can find more of my work at [GitHub](https://github.com/${data.githubname}).
 `;
 }
 
