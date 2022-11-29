@@ -10,8 +10,6 @@ A good quality README is essential when creating an open-source project on GitHu
 
 [Link to video]
 
-## README Screenshots
-
 ## Table of Contents
 
 * [Description](#Description)
