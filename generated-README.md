@@ -17,7 +17,7 @@
 
   ## [Description](#table-of-contents)
 
-  streamling readme to streamling project efficiency
+  streamlining a README via terminal to focus on my project
   
   ## [Installation](#table-of-contents)
   
@@ -49,7 +49,7 @@ node index.js
   
   ## [Contributing](#table-of-contents)
 
-  thank s for helping making my project a success
+  Feel free to contribute to make this project a success!
   
   ## [Tests](#table-of-contents)
   

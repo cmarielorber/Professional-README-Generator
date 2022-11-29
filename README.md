@@ -8,7 +8,7 @@ A good quality README is essential when creating an open-source project on GitHu
 
 [Demo]
 
-[Link to video]
+[VIDEO LINK](https://drive.google.com/file/d/1EN7V0hQXpW6ayTuSYH_gJtcZyVc7Ufen/view?usp=sharing)
 
 ## Table of Contents
 
